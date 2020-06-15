@@ -36,7 +36,7 @@ Fragen und Anregungen nehmen wir gerne unter [<span class="icon icon_extlink"></
 *   [CSV-Download: Aktuelle Corona-Zahlen Niedersachsen](https://storage.googleapis.com/ndrdata-corona-csv/csv/aktueller_stand_niedersachsen.csv "Link: CSV-Download: Aktuelle Corona-Zahlen Niedersachsen")
 *   [CSV-Download: Aktuelle Corona-Zahlen Bremen](https://storage.googleapis.com/ndrdata-corona-csv/csv/aktueller_stand_bremen.csv "Link: CSV-Download: Aktuelle Corona-Zahlen Bremen")
 *   [CSV-Download: Aktuelle Corona-Zahlen Mecklenburg-Vorpommern](https://storage.googleapis.com/ndrdata-corona-csv/csv/aktueller_stand_mecklenburg_vorpommern.csv "Link: CSV-Download: Aktuelle Corona-Zahlen Mecklenburg-Vorpommern")
-*   [Datenfelder der CSV-Dateien (XLSX)](/nachrichten/info/coronadownload112.xlsx "Download starten: Datenfelder der CSV-Dateien (XLSX)")
+*   [Datenfelder der CSV-Dateien (XLSX)](/data/coronadownload112.xlsx "Download starten: Datenfelder der CSV-Dateien (XLSX)")
 
 <!-- </div>
 
