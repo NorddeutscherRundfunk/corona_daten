@@ -31,7 +31,7 @@ Die Datenjournalisten des Norddeutschen Rundfunks sammeln diese Daten und halten
 
 Damit auch andere diese Informationen nutzen können, stellt der NDR diese Daten hier zum Download bereit. Über die folgenden Links können sie mehrmals täglich aktualisierte .csv-Dateien mit mit Daten zur Corona-Pandemie im Zeitverlauf herunterladen und diese für Ihre eigenen Analysen und Projekte nutzen.
 
-### Die Basis: RKI-Mirror & Bulk {#npgeo}
+### Die Basis: RKI-Mirror & Bulk
 
 ["RKI COVID 19"-Datensatz](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0/data) (löscht sich selbst!)
 Alles komprimiert als [gz](). Wie entpacken? Windows, Mac, Python
@@ -76,10 +76,10 @@ Quellenvermerk: Robert Koch-Institut (RKI), dl-de/by-2-0
 
 ### Sammeln Sie mit uns Daten!
 
-Sie haben interessante Daten zu Corona? Z.B. ältere Versionen des ["RKI Covid-19"](#npgeo)-Datensatzes? Her damit!
+Sie haben interessante Daten zu Corona? Z.B. ältere Versionen des ["RKI Covid-19"](#Die-Basis:-RKI-Mirror-&-Bulk)-Datensatzes? Her damit!
 
 Fragen und Anregungen nehmen wir gerne unter [<span class="icon icon_extlink"></span>data@ndr.de](mailto:data@ndr.de "Link: Link zur E-Mail-Adresse data@ndr.de") entgegen.
 
-## Haftungsausschluss{#Haftungsausschluss}
+## Haftungsausschluss
 
 *Haftungsausschluss: Die Inhalte dieser Seite dienen ausschließlich der allgemeinen Information der Öffentlichkeit. Der NDR übernimmt keine Verantwortung für die Richtigkeit und Vollständigkeit der Daten und Informationen, ob auf dieser Seite angegeben oder verlinkt, für Abweichungen von Originaldaten, Übertragungsfehler oder Veränderung der Informationen durch Dritte.*
