@@ -15,7 +15,7 @@ Die Daten sind die „Fallzahlen in Deutschland“ des Robert Koch-Institut (RKI
 
 Quellenvermerke siehe jeweilige Daten
 
-Haftungsausschluss: Die Inhalte dieser Seite dienen ausschließlich der allgemeinen Information der Öffentlichkeit. Der NDR übernimmt keine Verantwortung für die Richtigkeit und Vollständigkeit der Daten und Informationen, ob auf dieser Seite angegeben oder verlinkt, für Abweichungen von Originaldaten, Übertragungsfehler oder Veränderung der Informationen durch Dritte.
+Beachten Sie auch den [Haftungsausschluss unten](#Haftungsausschluss).
 
 # Warum macht der NDR das?
 
@@ -79,3 +79,7 @@ Quellenvermerk: Robert Koch-Institut (RKI), dl-de/by-2-0
 Sie haben interessante Daten zu Corona? Z.B. ältere Versionen des ["RKI Covid-19"](#npgeo)-Datensatzes? Her damit!
 
 Fragen und Anregungen nehmen wir gerne unter [<span class="icon icon_extlink"></span>data@ndr.de](mailto:data@ndr.de "Link: Link zur E-Mail-Adresse data@ndr.de") entgegen.
+
+## Haftungsausschluss{#Haftungsausschluss}
+
+*Haftungsausschluss: Die Inhalte dieser Seite dienen ausschließlich der allgemeinen Information der Öffentlichkeit. Der NDR übernimmt keine Verantwortung für die Richtigkeit und Vollständigkeit der Daten und Informationen, ob auf dieser Seite angegeben oder verlinkt, für Abweichungen von Originaldaten, Übertragungsfehler oder Veränderung der Informationen durch Dritte.*
