@@ -50,7 +50,7 @@ In den folgenden Dateien finden sich die Anzahl der Neuinfektionen, wie sie das 
 *   [CSV-Download: Aktuelle Corona-Zahlen Mecklenburg-Vorpommern](https://storage.googleapis.com/ndrdata-corona-csv/csv/aktueller_stand_mecklenburg_vorpommern.csv "Link: CSV-Download: Aktuelle Corona-Zahlen Mecklenburg-Vorpommern")
 *   [Datenfelder der CSV-Dateien (XLSX)](/data/coronadownload112.xlsx "Download starten: Datenfelder der CSV-Dateien (XLSX)")
 
-## Karten:
+## Interaktive Karten
 
 Die folgenden sich täglich aktualisierende interaktiven Corona-Karten können über den [Datawrapper-River](https://river.datawrapper.de/) kostenlos und frei auf eigenen Webseiten eingebunden werden. Sie lassen sich zuvor noch individuell anpassen. Programmierkenntnisse sind dazu nicht nötig.
 
@@ -62,12 +62,12 @@ Der Tooltip zeigt für jeden Kreis den Verlauf der letzten 14 Tage.
 
 Datenquelle: [RKI Covid-19-Datensatz](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0/data)
 
-### Karte für Gesamtdeutschland:
+#### Karte für Gesamtdeutschland:
 
 <img src="png/Deutschlandkarte_neu.png" width="400">
 Link im Datawrapper-River: https://river.datawrapper.de/_/HVqu8
 
-### Karte für Norddeutschland:
+#### Karte für Norddeutschland:
 
 <img src="png/Nordkarte_neu.png" width="400">
 Link im Datawrapper-River: https://river.datawrapper.de/_/7OsDa
