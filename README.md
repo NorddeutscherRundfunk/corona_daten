@@ -1,8 +1,6 @@
-# Corona-Daten für die Öffentlichkeit
+# Corona-Daten des NDR für die Öffentlichkeit
 
-*Stand: 19.04.2020*
-
-Hier stellt das Datenteam des Norddeutschen Rundfunks (NDRdata) der Öffentlichkeit aktuelle und historische Daten zur Corona-Pandemie zur Verfügung. Jeder kann sie herunterladen und kostenfrei nutzen (siehe [Nutzungsbedingungen](#Nutzungsbedingungen/Lizenz)).
+Hier stellt das Datenteam des Norddeutschen Rundfunks (NDRdata) der Öffentlichkeit aktuelle und historische Daten zur Corona-Pandemie zur Verfügung. Jeder kann sie herunterladen und kostenfrei nutzen (siehe [Nutzungsbedingungen](#Nutzungsbedingungen-&-Lizenz)).
 
 Der NDR möchte so als Teil seines öffentlich-rechtlichen Auftrages sicherstellen, dass diese Daten jetzt und dauerhaft als saubere und maschinenlesbare Datensätze in gleichbleibendem Format allgemein verfügbar sind, um die Coronakrise nachzuvollziehen, zu analysieren und zu erforschen. Das Angebot richtet sich nicht nur an die Medien und die Wissenschaft, sondern an jeden Interessierten.
 
@@ -14,7 +12,7 @@ Die Daten sind stets tagesaktuell (teilweise aktualisieren sie sich mehrfach tä
 
 Da sich die Corona-Daten der Originalquellen (Robert Koch-Institut oder Landesministerieen) oft täglich überschreiben, sind dort immer nur aktuellen Tageswerte zu sehen, und Zeitvergleiche nicht möglich. Das NDRdata-Team greift viele dieser Tageswerte automatisiert ab und stellt sie hier bereinigt als konsistente Zeitreihen zur Verfügung.
 
-## Nutzungsbedingungen/Lizenz
+## Nutzungsbedingungen & Lizenz
 
 Alle Daten können unter der [Open Data Datenlizenz Deutschland – Namensnennung – Version 2.0](https://www.govdata.de/dl-de/by-2-0) genutzt werden. Die Quellenvermerke sind bei den jeweilige Datensäten genannt (s.u.). Beachten Sie bitte auch den [Haftungsausschluss unten](#Haftungsausschluss).
 
