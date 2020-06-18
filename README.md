@@ -20,9 +20,9 @@ Alle Daten können frei und kostenlos unter der [Open Data Datenlizenz Deutschla
 
 ## Alle Meldedaten des Robert-Koch-Instituts
 
-Das Robert-Koch-Institut (RKI) stellt mit seinem ["RKI COVID 19"-Datensatz](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0/data) die wichtigste und vollständigste amtliche Datensammlung mit Covid-19 Fallzahlen nach Meldetag, Alter, Geschlecht, Landkreis und anderen Merkmalen zur Verfügung. Der Datensatz überschreibt sich täglich, so dass alte Datensätze nicht mehr vorliegen.
+Das Robert-Koch-Institut (RKI) in Berlin stellt mit seinem ["RKI COVID 19"-Datensatz](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0/data) die wichtigste und vollständigste amtliche Datensammlung mit Covid-19 Fallzahlen nach Meldetag, Alter, Geschlecht, Landkreis und anderen Merkmalen zur Verfügung. Der Datensatz überschreibt sich täglich, so dass alte Datensätze nicht mehr vorliegen.
 
-Wir stellen hier für jeden Tag seit dem 31. März 2020 eine komplette Kopie dieser täglichen Datensätze zur Verfügung, die wir auf Vollständigkeit geprüft, bereinigt, und in ein einheitliches Format gebracht haben. Eine Beschreibung der Spalten und ihrer Bedeutung findet sich in den [Metadaten](https://www.arcgis.com/home/item.html?id=dd4580c810204019a7b8eb3e0b329dd6).
+NDRdata bietet hier für jeden Tag seit dem 31. März 2020 eine komplette Kopie dieser täglichen Datensätze zum Download an, die auf Vollständigkeit geprüft, bereinigt, und in ein einheitliches Format gebracht wurden. Eine Beschreibung der Spalten und ihrer Bedeutung findet sich in den [Metadaten](https://www.arcgis.com/home/item.html?id=dd4580c810204019a7b8eb3e0b329dd6).
 
 Sämtliche Datumsspalten sind im [ISO-Datumsformat JJJJ-MM-TT](https://de.wikipedia.org/wiki/ISO_8601#Datum) angegeben. Dabei bedeuten: JJJJ = 4-stelliges Jahr, MM = 2-stelliger Monat, TT = 2-stelliger Tag im Monat. Der 16. Juli 2020 wäre also im ISO-Format `2020-07-16`, der 23. August 2020 wäre beispielsweise `2020-08-23`.
 
@@ -30,15 +30,15 @@ Sämtliche Datumsspalten sind im [ISO-Datumsformat JJJJ-MM-TT](https://de.wikipe
 
 **Eine große Tabelle, die alle Datensätze mit Datenständen ab dem 31. März 2020 zusammenfasst**, lässt sich hier herunterladen: https://storage.googleapis.com/public.ndrdata.de/rki_covid_19_bulk/covid_19_bulk.tsv.gz Diese Tabelle ermöglicht insbesondere Untersuchungen von Verzögerungen zwischen dem Zeitpunkt der Meldung des Falles in der Region des Ausbruchs und der Weitergabe der Information an das RKI, aber auch fortgeschrittene Berechnungen wie sogenannte Nowcasts.
 
-Alle Dateien liegen als [CSV-Dateien](https://de.wikipedia.org/wiki/CSV_(Dateiformat)) vor. Das Trennnzeichen der Spalten ist der Tabulator (`\t`). Die Dateien sind komprimiert und tragen darum die Endung `gz`. Unter Windows lassen sie sich beispielsweise mit dem kostenfreien Programm [7-Zip](https://www.7-zip.org/) dekomprimieren, auf Apple-Rechnern einfach per Doppelklick im Finder.
+Alle Tabellen liegen als [CSV-Dateien](https://de.wikipedia.org/wiki/CSV_(Dateiformat)) vor. Das Trennnzeichen der Spalten ist der Tabulator (`\t`). Die Dateien sind komprimiert und tragen darum die Endung `gz`. Unter Windows lassen sie sich beispielsweise mit dem kostenfreien Programm [7-Zip](https://www.7-zip.org/) dekomprimieren, auf Apple-Rechnern einfach per Doppelklick im Finder.
 
 **Quellenvermerk: Robert Koch-Institut (RKI), dl-de/by-2-0**
 
-## Meldedaten der lokalen Behörden für die Bundesländer **NUR IM NORDNE??**(Zeitreihen)
+## Meldedaten der lokalen Behörden für Norddeutschland (Zeitreihen)
 
-Auch die Bundesländer melden Corona-Fallzahlen. Sie stammen aus den lokalen Gesundheitsämtern, und werden je nach Bundesland von Staatskanzlei oder den Gesundheitsministerien veröffentlicht. Hier werden viele Fälle früher erfasst als beim RKI, da die Meldung nach Berlin bis zu mehreren Tagen dauern kann. Die an einem Tag gemeldeten Fälle haben aber den Nachteil, dass sie an ganz verschiedenen, zurückliegenden Tagen in den lokalen Gesundheitsämtern bekannt geworden sind. Im "RKI COVID 19"-Datensatz hingegen (s.o.) sind die Erkrankungen korrekt dem Meldedatum vor Ort zugeordnet - der Verlauf der Epidemie lässt sich also besser nachvollziehen.
+Auch die Bundesländer melden Corona-Fallzahlen. Sie stammen aus den lokalen Gesundheitsämtern, und werden je nach Bundesland von Staatskanzlei oder den Gesundheitsministerien veröffentlicht. Hier werden viele Fälle früher erfasst als beim RKI, da die Meldung nach Berlin bis zu mehreren Tagen dauern kann. Die an einem Tag gemeldeten Fälle haben aber den Nachteil, dass sie an verschiedenen, zurückliegenden Tagen in den lokalen Gesundheitsämtern bekannt geworden sind. Im "RKI COVID 19"-Datensatz hingegen (s.o.) sind die Erkrankungen korrekt dem Meldedatum vor Ort zugeordnet - der Verlauf der Epidemie lässt sich also besser nachvollziehen.
 
-In den folgenden Dateien finden sich die Anzahl der Neuinfektionen, wie sie das jeweilige Ministerium und im Vergleich das Robert Koch-Institut angeben. Ebenso die bestätigten Todesfälle aus beiden Institutionen und die vom NDR anhand der jeweiligen Einwohnerzahl eines Bundeslands berechneter Inzidenz-Wert, also die Anzahl der Infektionen oder Todesopfer pro 100.000 Einwohner. Außerdem liefern einige Bundesländer weitere Informationen, wie zum Beispiel die Zahl der Genesenen. Eine Beschreibung aller Spalten finden Sie in [dieser Excel-Datei](/data/coronadownload112.xlsx "Download starten: Datenfelder der CSV-Dateien (XLSX)").
+In den folgenden Dateien finden sich die Anzahl der Neuinfektionen, wie sie das jeweilige Ministerium angibt (und manchmal im Vergleich das Robert Koch-Institut). Ebenso die bestätigten Todesfälle aus beiden Institutionen und die vom NDR anhand der jeweiligen Einwohnerzahl eines Bundeslands berechneten Inzidenzen, also die Anzahl der Infektionen oder Todesopfer pro 100.000 Einwohner. Außerdem liefern einige Bundesländer weitere Informationen, wie zum Beispiel die Zahl der Genesenen. Eine Beschreibung aller Spalten finden Sie in [dieser Excel-Datei](/data/coronadownload112.xlsx "Download starten: Datenfelder der CSV-Dateien (XLSX)").
 
 **Quellenvermerk: Robert Koch-Institut (RKI), Landesministerien, dl-de/by-2-0**
 
