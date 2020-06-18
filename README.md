@@ -64,13 +64,12 @@ Datenquelle: [RKI Covid-19-Datensatz](https://npgeo-corona-npgeo-de.hub.arcgis.c
 
 ### Karte für Gesamtdeutschland:
 
-![Bild der Deutschlandkarte](/png/Deutschlandkarte.png)
-Link im Datawrapper-River: https://river.datawrapper.de/_/7OsDa
-Karte für ganz Gesamtdeutschland:
+![Bild der Deutschlandkarte](/png/Deutschlandkarte.png | width=250)
+Link im Datawrapper-River: https://river.datawrapper.de/_/HVqu8
 
 ### Karte für Norddeutschland:
 
-![Bild der Nordkarte](/png/Nordkarte.png)
+![Bild der Nordkarte](/png/Nordkarte.png | width=250)
 Link im Datawrapper-River: https://river.datawrapper.de/_/7OsDa
 
 ## Sammeln Sie mit uns Daten!
