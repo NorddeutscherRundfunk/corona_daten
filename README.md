@@ -4,6 +4,8 @@ Hier stellt das Datenteam des Norddeutschen Rundfunks (NDRdata) der Öffentlichk
 
 Der NDR möchte so als Teil seines öffentlich-rechtlichen Auftrages sicherstellen, dass diese Daten jetzt und dauerhaft als saubere und maschinenlesbare Datensätze in gleichbleibendem Format allgemein verfügbar sind, um die Coronakrise nachzuvollziehen, zu analysieren und zu erforschen. Das Angebot richtet sich nicht nur an die Medien und die Wissenschaft, sondern an jeden Interessierten.
 
+Zudem stellt der NDR zwei interaktive Karten zur eigenen Nutzung und Veränderung zur Verfügung, die den aktuellen Verlauf der Covid-19 Neuinfektionen in den Stadt- und Landkreisen zeigen.
+
 ## Welche Daten gibt es hier?
 
 Es handelt sich vor allem um die Fallzahlen der an Covid-19 Erkrankten als "Kerndaten" der Pandemie in unterschiedlicher regionaler Auflösung und aus unterschiedlichen Quellen. Zusätzlich enthalten die Datensätzen verschiedene Indikatoren, etwa die Zahl der Neuinfektionen pro 100.000 Einwohner für jedes deutsche Bundesland. Die Daten waren und sind auch Grundlage für die NDR-Berichterstattung in Fernsehen, Radio und auf [ndr.de](https://www.ndr.de/ "Webseite des NDR").
@@ -32,7 +34,7 @@ Alle Dateien liegen als [CSV-Dateien](https://de.wikipedia.org/wiki/CSV_(Dateifo
 
 **Quellenvermerk: Robert Koch-Institut (RKI), dl-de/by-2-0**
 
-## Meldedaten der lokalen Behörden und des Robert Koch-Instituts
+## Meldedaten der lokalen Behörden für die Bundesländer **NUR IM NORDNE??**(Zeitreihen)
 
 Auch die Bundesländer melden Corona-Fallzahlen. Sie stammen aus den lokalen Gesundheitsämtern, und werden je nach Bundesland von Staatskanzlei oder den Gesundheitsministerien veröffentlicht. Hier werden viele Fälle früher erfasst als beim RKI, da die Meldung nach Berlin bis zu mehreren Tagen dauern kann. Die an einem Tag gemeldeten Fälle haben aber den Nachteil, dass sie an ganz verschiedenen, zurückliegenden Tagen in den lokalen Gesundheitsämtern bekannt geworden sind. Im "RKI COVID 19"-Datensatz hingegen (s.o.) sind die Erkrankungen korrekt dem Meldedatum vor Ort zugeordnet - der Verlauf der Epidemie lässt sich also besser nachvollziehen.
 
@@ -48,6 +50,26 @@ In den folgenden Dateien finden sich die Anzahl der Neuinfektionen, wie sie das 
 *   [CSV-Download: Aktuelle Corona-Zahlen Mecklenburg-Vorpommern](https://storage.googleapis.com/ndrdata-corona-csv/csv/aktueller_stand_mecklenburg_vorpommern.csv "Link: CSV-Download: Aktuelle Corona-Zahlen Mecklenburg-Vorpommern")
 *   [Datenfelder der CSV-Dateien (XLSX)](/data/coronadownload112.xlsx "Download starten: Datenfelder der CSV-Dateien (XLSX)")
 
+## Karten:
+
+Die folgenden sich täglich aktualisierende interaktiven Corona-Karten können über den [Datawrapper-River](https://river.datawrapper.de/) kostenlos und frei auf eigenen Webseiten eingebunden werden. Sie lassen sich zuvor noch individuell anpassen. Programmierkenntnisse sind dazu nicht nötig.
+
+Die Karten zeigen die "7-Tage-Inzidenz" der Neuinfektionen mit Covid-19 für alle Land- und Stadtkreise in Nord- oder Gesamtdeutschland. Die 7-Tage.Inzidenz ist die Summer der Neuinfektionen über die letzten 7 Tage, gerechnet auf 100.000 Einwohner.
+
+Je dunkler das Blau einer Fläche auf der Karte, desto näher ist der Kreis der Obergrenze von 50 Neuinfektionen pro 100.000 Einwohner, ab der Maßnahmen ergriffen werden müssen. Kreise mit einer 7-Tage-Inzidenz über 50 sind rot.
+
+Der Tooltip zeigt für jeden Kreis den Verlauf der letzten 14 Tage.
+
+Datenquelle: [RKI Covid-19-Datensatz](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0/data)
+
+### Karte für Norddeutschland:
+
+<iframe title="Wie nah sind die Nord-Landkreise an der Obergrenze*?" aria-label="map" id="datawrapper-chart-7OsDa" src="https://datawrapper.dwcdn.net/7OsDa/878/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="559"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+</script>
+
+Link im Datawrapper-River: https://river.datawrapper.de/_/7OsDa
+
+Karte für ganz Gesamtdeutschland:
 
 ## Sammeln Sie mit uns Daten!
 
