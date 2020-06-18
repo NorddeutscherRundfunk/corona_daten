@@ -62,14 +62,16 @@ Der Tooltip zeigt für jeden Kreis den Verlauf der letzten 14 Tage.
 
 Datenquelle: [RKI Covid-19-Datensatz](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0/data)
 
+### Karte für Gesamtdeutschland:
+
+![Bild der Deutschlandkarte](/png/Deutschlandkarte.png)
+Link im Datawrapper-River: https://river.datawrapper.de/_/7OsDa
+Karte für ganz Gesamtdeutschland:
+
 ### Karte für Norddeutschland:
 
-<iframe title="Wie nah sind die Nord-Landkreise an der Obergrenze*?" aria-label="map" id="datawrapper-chart-7OsDa" src="https://datawrapper.dwcdn.net/7OsDa/878/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="559"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
-</script>
-
+![Bild der Nordkarte](/png/Nordkarte.png)
 Link im Datawrapper-River: https://river.datawrapper.de/_/7OsDa
-
-Karte für ganz Gesamtdeutschland:
 
 ## Sammeln Sie mit uns Daten!
 
