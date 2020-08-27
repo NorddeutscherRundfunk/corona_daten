@@ -1,10 +1,10 @@
 # Corona-Daten des NDR für die Öffentlichkeit
 
-Hier stellt das Datenteam des Norddeutschen Rundfunks (NDRdata) der Öffentlichkeit aktuelle und historische Daten zur Corona-Pandemie zur Verfügung. Jeder kann sie herunterladen und kostenfrei nutzen (siehe [Nutzungsbedingungen](#Lizenz)).
+Hier stellt das Datenteam des Norddeutschen Rundfunks (NDR Data) der Öffentlichkeit aktuelle und historische Daten zur Corona-Pandemie zur Verfügung. Jeder kann sie herunterladen und kostenfrei nutzen (siehe [Nutzungsbedingungen](#Lizenz)).
 
 Der NDR möchte so als Teil seines öffentlich-rechtlichen Auftrages sicherstellen, dass diese Daten jetzt und dauerhaft als saubere und maschinenlesbare Datensätze in gleichbleibendem Format allgemein verfügbar sind, um die Coronakrise nachzuvollziehen, zu analysieren und zu erforschen. Das Angebot richtet sich nicht nur an die Medien und die Wissenschaft, sondern an jeden Interessierten.
 
-Zudem stellt der NDR zwei interaktive Karten zur eigenen Nutzung und Veränderung zur Verfügung, die den aktuellen Verlauf der Covid-19 Neuinfektionen in den Stadt- und Landkreisen zeigen.
+Zudem stellt der NDR interaktive Karten zur eigenen Nutzung und Veränderung zur Verfügung, die den aktuellen Verlauf der Covid-19 Neuinfektionen in den Stadt- und Landkreisen zeigen.
 
 ## Welche Daten gibt es hier?
 
@@ -12,7 +12,7 @@ Es handelt sich vor allem um die Fallzahlen der an Covid-19 Erkrankten als "Kern
 
 Die Datensätze sind stets tagesaktuell (teilweise aktualisieren sie sich mehrfach täglich).
 
-Da sich die Corona-Daten der Originalquellen (Robert Koch-Institut oder Landesministerien) oft täglich überschreiben, sind dort immer nur aktuellen Tageswerte zu sehen - und Zeitvergleiche nicht möglich. Das NDRdata-Team greift viele dieser Tageswerte automatisiert ab und stellt sie hier bereinigt als konsistente Zeitreihen zur Verfügung.
+Da sich die Corona-Daten der Originalquellen (Robert Koch-Institut oder Landesministerien) oft täglich überschreiben, sind dort immer nur aktuellen Tageswerte zu sehen - und Zeitvergleiche nicht möglich. Das NDR Data-Team greift viele dieser Tageswerte automatisiert ab und stellt sie hier bereinigt als konsistente Zeitreihen zur Verfügung.
 
 ## Lizenz
 
@@ -22,13 +22,15 @@ Alle Daten können frei und kostenlos unter der [Open Data Datenlizenz Deutschla
 
 Das Robert-Koch-Institut (RKI) in Berlin stellt mit seinem ["RKI COVID 19"-Datensatz](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0/data) die wichtigste und vollständigste amtliche Datensammlung mit Covid-19 Fallzahlen nach Meldetag, Alter, Geschlecht, Landkreis und anderen Merkmalen zur Verfügung. Der Datensatz überschreibt sich täglich, so dass alte Datensätze nicht mehr vorliegen.
 
-NDRdata bietet hier für jeden Tag seit dem 31. März 2020 eine komplette Kopie dieser täglichen Datensätze zum Download an, die auf Vollständigkeit geprüft, bereinigt, und in ein einheitliches Format gebracht wurden. Eine Beschreibung der Spalten und ihrer Bedeutung findet sich in den [Metadaten](https://www.arcgis.com/home/item.html?id=dd4580c810204019a7b8eb3e0b329dd6).
+NDR Data bietet hier für jeden Tag seit dem 31. März 2020 eine komplette Kopie dieser täglichen Datensätze zum Download an, die auf Vollständigkeit geprüft, bereinigt, und in ein einheitliches Format gebracht wurden. Eine Beschreibung der Spalten und ihrer Bedeutung findet sich in den [Metadaten](https://www.arcgis.com/home/item.html?id=dd4580c810204019a7b8eb3e0b329dd6).
 
 Sämtliche Datumsspalten sind im [ISO-Datumsformat JJJJ-MM-TT](https://de.wikipedia.org/wiki/ISO_8601#Datum) angegeben. Dabei bedeuten: JJJJ = 4-stelliges Jahr, MM = 2-stelliger Monat, TT = 2-stelliger Tag im Monat. Der 16. Juli 2020 wäre also im ISO-Format `2020-07-16`, der 23. August 2020 wäre beispielsweise `2020-08-23`.
 
+**Der Datensatz zum jüngsten Datenstand (also heute, solange das RKI die Daten täglich aktualisiert)** findet sich unter der URL https://storage.googleapis.com/public.ndrdata.de/rki_covid_19_bulk/daily/covid_19_daily_latest.tsv.gz
+
 **Der Datensatz zu einem bestimmten Datum** findet sich unter der URL https://storage.googleapis.com/public.ndrdata.de/rki_covid_19_bulk/daily/covid_19_daily_2020-06-16.tsv.gz, wobei anstelle der Zeichenfolge `2020-06-16` das gewünschte Datum im ISO-Format (siehe oben) angegeben werden muss.
 
-**Eine große Tabelle, die alle Datensätze mit Datenständen ab dem 31. März 2020 zusammenfasst**, lässt sich hier herunterladen: https://storage.googleapis.com/public.ndrdata.de/rki_covid_19_bulk/covid_19_bulk.tsv.gz Diese Tabelle ermöglicht insbesondere Untersuchungen von Verzögerungen zwischen dem Zeitpunkt der Meldung des Falles in der Region des Ausbruchs und der Weitergabe der Information an das RKI, aber auch fortgeschrittene Berechnungen wie sogenannte Nowcasts.
+<!-- **Eine große Tabelle, die alle Datensätze mit Datenständen ab dem 31. März 2020 zusammenfasst**, lässt sich hier herunterladen: https://storage.googleapis.com/public.ndrdata.de/rki_covid_19_bulk/covid_19_bulk.tsv.gz Diese Tabelle ermöglicht insbesondere Untersuchungen von Verzögerungen zwischen dem Zeitpunkt der Meldung des Falles in der Region des Ausbruchs und der Weitergabe der Information an das RKI, aber auch fortgeschrittene Berechnungen wie sogenannte Nowcasts. -->
 
 Alle Tabellen liegen als [CSV-Dateien](https://de.wikipedia.org/wiki/CSV_(Dateiformat)) vor. Das Trennnzeichen der Spalten ist der Tabulator (`\t`). Die Dateien sind komprimiert und tragen darum die Endung `gz`. Unter Windows lassen sie sich beispielsweise mit dem kostenfreien Programm [7-Zip](https://www.7-zip.org/) dekomprimieren, auf Apple-Rechnern einfach per Doppelklick im Finder.
 
@@ -56,7 +58,7 @@ Die folgenden sich täglich aktualisierende interaktiven Corona-Karten können �
 
 Die Karten zeigen die "7-Tage-Inzidenz" der Neuinfektionen mit Covid-19 für alle Land- und Stadtkreise in Nord- oder Gesamtdeutschland. Die 7-Tage.Inzidenz ist die Summer der Neuinfektionen über die letzten 7 Tage, gerechnet auf 100.000 Einwohner.
 
-Je dunkler das Blau einer Fläche auf der Karte, desto näher ist der Kreis der Obergrenze von 50 Neuinfektionen pro 100.000 Einwohner, ab der Maßnahmen ergriffen werden müssen. Kreise mit einer 7-Tage-Inzidenz über 50 sind rot.
+Je dunkler das Blau einer Fläche auf der Karte, desto näher ist der Kreis der Grenze von 35, ab der in Bayerischen Kreisen Maßnahmen ergriffen werden müssen. Kreise mit einer 7-Tage-Inzidenz über 50  - dem Grenzwert für alle anderen Bundesländer - sind rot.
 
 Der Tooltip zeigt für jeden Kreis den Verlauf der letzten 14 Tage.
 
