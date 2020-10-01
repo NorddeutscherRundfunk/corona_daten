@@ -10,9 +10,9 @@ Zudem stellt der NDR interaktive Karten zur eigenen Nutzung und Veränderung zur
 
 Es handelt sich vor allem um die Fallzahlen der an Covid-19 Erkrankten als "Kerndaten" der Pandemie in unterschiedlicher regionaler Auflösung und aus unterschiedlichen Quellen. Zusätzlich enthalten die Datensätzen verschiedene Indikatoren, etwa die Zahl der Neuinfektionen pro 100.000 Einwohner für jedes deutsche Bundesland. Die Daten waren und sind auch Grundlage für die NDR-Berichterstattung in Fernsehen, Radio und auf [ndr.de](https://www.ndr.de/ "Webseite des NDR").
 
-Die Datensätze sind stets tagesaktuell (teilweise aktualisieren sie sich mehrfach täglich).
+Die Datensätze sind stets tagesaktuell.
 
-Da sich die Corona-Daten der Originalquellen (Robert Koch-Institut oder Landesministerien) oft täglich überschreiben, sind dort immer nur aktuellen Tageswerte zu sehen - und Zeitvergleiche nicht möglich. Das NDR Data-Team greift viele dieser Tageswerte automatisiert ab und stellt sie hier bereinigt als konsistente Zeitreihen zur Verfügung.
+Da sich die Corona-Daten der Originalquellen (Robert Koch-Institut oder Landesministerien) oft täglich überschreiben, sind dort immer nur aktuellen Tageswerte zu sehen - und Zeitvergleiche der Datensätze nicht möglich. Das NDR Data-Team greift viele dieser Tageswerte automatisiert ab und stellt sie hier bereinigt als konsistente Zeitreihen zur Verfügung.
 
 ## Lizenz
 
@@ -26,13 +26,11 @@ NDR Data bietet hier für jeden Tag seit dem 31. März 2020 eine komplette Kopie
 
 Sämtliche Datumsspalten sind im [ISO-Datumsformat JJJJ-MM-TT](https://de.wikipedia.org/wiki/ISO_8601#Datum) angegeben. Dabei bedeuten: JJJJ = 4-stelliges Jahr, MM = 2-stelliger Monat, TT = 2-stelliger Tag im Monat. Der 16. Juli 2020 wäre also im ISO-Format `2020-07-16`, der 23. August 2020 wäre beispielsweise `2020-08-23`.
 
-**Der Datensatz zum jüngsten Datenstand (also heute, solange das RKI die Daten täglich aktualisiert)** findet sich unter der URL https://storage.googleapis.com/public.ndrdata.de/rki_covid_19_bulk/daily/covid_19_daily_latest.tsv.gz
+**Der Datensatz zum jüngsten Datenstand (also heute, solange das RKI die Daten täglich aktualisiert)** findet sich unter der URL https://storage.googleapis.com/public.ndrdata.de/rki_covid_19_bulk/daily/covid_19_daily_latest.tsv (Achtung, Datei ist größer als 30 MB) bzw. https://storage.googleapis.com/public.ndrdata.de/rki_covid_19_bulk/daily/covid_19_daily_latest.tsv.gz (komprimierte Version)
 
 **Der Datensatz zu einem bestimmten Datum** findet sich unter der URL https://storage.googleapis.com/public.ndrdata.de/rki_covid_19_bulk/daily/covid_19_daily_2020-06-16.tsv.gz, wobei anstelle der Zeichenfolge `2020-06-16` das gewünschte Datum im ISO-Format (siehe oben) angegeben werden muss.
 
-<!-- **Eine große Tabelle, die alle Datensätze mit Datenständen ab dem 31. März 2020 zusammenfasst**, lässt sich hier herunterladen: https://storage.googleapis.com/public.ndrdata.de/rki_covid_19_bulk/covid_19_bulk.tsv.gz Diese Tabelle ermöglicht insbesondere Untersuchungen von Verzögerungen zwischen dem Zeitpunkt der Meldung des Falles in der Region des Ausbruchs und der Weitergabe der Information an das RKI, aber auch fortgeschrittene Berechnungen wie sogenannte Nowcasts. -->
-
-Alle Tabellen liegen als [CSV-Dateien](https://de.wikipedia.org/wiki/CSV_(Dateiformat)) vor. Das Trennnzeichen der Spalten ist der Tabulator (`\t`). Die Dateien sind komprimiert und tragen darum die Endung `gz`. Unter Windows lassen sie sich beispielsweise mit dem kostenfreien Programm [7-Zip](https://www.7-zip.org/) dekomprimieren, auf Apple-Rechnern einfach per Doppelklick im Finder.
+Alle Tabellen liegen als [CSV-Dateien](https://de.wikipedia.org/wiki/CSV_(Dateiformat)) vor. Das Trennnzeichen der Spalten ist der Tabulator (`\t`). Die Dateien sind zumeist komprimiert und tragen darum die Endung `gz`. Unter Windows lassen sie sich beispielsweise mit dem kostenfreien Programm [7-Zip](https://www.7-zip.org/) dekomprimieren, auf Apple-Rechnern einfach per Doppelklick im Finder.
 
 **Quellenvermerk: Robert Koch-Institut (RKI), dl-de/by-2-0**
 
@@ -56,7 +54,7 @@ In den folgenden Dateien finden sich die Anzahl der Neuinfektionen, wie sie das 
 
 Die folgenden sich täglich aktualisierende interaktiven Corona-Karten können über den [Datawrapper-River](https://river.datawrapper.de/faq) kostenlos und frei auf eigenen Webseiten eingebunden werden. Sie lassen sich zuvor noch individuell anpassen. Programmierkenntnisse sind dazu nicht nötig.
 
-Die Karten zeigen die "7-Tage-Inzidenz" der Neuinfektionen mit Covid-19 für alle Land- und Stadtkreise in Nord- oder Gesamtdeutschland. Die 7-Tage.Inzidenz ist die Summer der Neuinfektionen über die letzten 7 Tage, gerechnet auf 100.000 Einwohner.
+Die Karten zeigen die "7-Tage-Inzidenz" der Neuinfektionen mit Covid-19 für alle Land- und Stadtkreise in Nord- oder Gesamtdeutschland. Die 7-Tage.Inzidenz ist die Summe der Neuinfektionen über die letzten 7 Tage, gerechnet auf 100.000 Einwohner.
 
 Je dunkler das Blau einer Fläche auf der Karte, desto näher ist der Kreis der Grenze von 35, ab der in Bayerischen Kreisen Maßnahmen ergriffen werden müssen. Kreise mit einer 7-Tage-Inzidenz über 50  - dem Grenzwert für alle anderen Bundesländer - sind rot.
 
@@ -69,10 +67,10 @@ Datenquelle: [RKI Covid-19-Datensatz](https://npgeo-corona-npgeo-de.hub.arcgis.c
 <img src="png/Deutschlandkarte_neu.png" width="400">
 Link im Datawrapper-River: https://river.datawrapper.de/_/HVqu8
 
-#### Karte für Norddeutschland:
+<!-- #### Karte für Norddeutschland:
 
 <img src="png/Nordkarte_neu.png" width="400">
-Link im Datawrapper-River: https://river.datawrapper.de/_/7OsDa
+Link im Datawrapper-River: https://river.datawrapper.de/_/7OsDa -->
 
 ## Sammeln Sie mit uns Daten!
 
