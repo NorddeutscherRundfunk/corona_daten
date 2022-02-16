@@ -34,14 +34,6 @@ Alle Tabellen liegen als [CSV-Dateien](https://de.wikipedia.org/wiki/CSV_(Dateif
 
 **Quellenvermerk: Robert Koch-Institut (RKI), dl-de/by-2-0**
 
-<!-- ## Meldedaten der lokalen Behörden für Norddeutschland (Zeitreihen)
-
-Auch die Bundesländer melden Corona-Fallzahlen. Sie stammen aus den lokalen Gesundheitsämtern, und werden je nach Bundesland von Staatskanzlei oder den Gesundheitsministerien veröffentlicht. Hier werden viele Fälle früher erfasst als beim RKI, da die Meldung nach Berlin bis zu mehreren Tagen dauern kann. Die an einem Tag gemeldeten Fälle haben aber den Nachteil, dass sie an verschiedenen, zurückliegenden Tagen in den lokalen Gesundheitsämtern bekannt geworden sind. Im "RKI COVID 19"-Datensatz hingegen (s.o.) sind die Erkrankungen korrekt dem Meldedatum vor Ort zugeordnet - der Verlauf der Epidemie lässt sich also besser nachvollziehen.
-
-In den folgenden Dateien finden sich die Anzahl der Neuinfektionen, wie sie das jeweilige Ministerium angibt (und manchmal im Vergleich das Robert Koch-Institut). Ebenso die bestätigten Todesfälle aus beiden Institutionen und die vom NDR anhand der jeweiligen Einwohnerzahl eines Bundeslands berechneten Inzidenzen, also die Anzahl der Infektionen oder Todesopfer pro 100.000 Einwohner. Außerdem liefern einige Bundesländer weitere Informationen, wie zum Beispiel die Zahl der Genesenen. Eine Beschreibung aller Spalten finden Sie in [dieser Excel-Datei](/data/coronadownload112.xlsx "Download starten: Datenfelder der CSV-Dateien (XLSX)").
-
-**Quellenvermerk: Robert Koch-Institut (RKI), Landesministerien, dl-de/by-2-0**
-
 ## Sammeln Sie mit uns Daten!
 
 Sie haben interessante Daten zur Coronakrise? Melden Sie sich beim NDRdata-Team!
