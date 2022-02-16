@@ -20,13 +20,13 @@ Alle Daten können frei und kostenlos unter der [Open Data Datenlizenz Deutschla
 
 ## Alle Meldedaten des Robert-Koch-Instituts
 
-Das Robert-Koch-Institut (RKI) in Berlin stellt mit seinem ["RKI COVID 19"-Datensatz](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0/data) die wichtigste und vollständigste amtliche Datensammlung mit Covid-19 Fallzahlen nach Meldetag, Alter, Geschlecht, Landkreis und anderen Merkmalen zur Verfügung. Der Datensatz überschreibt sich täglich, so dass alte Datensätze nicht mehr vorliegen.
+Das Robert-Koch-Institut (RKI) in Berlin stellt mit seinem ["RKI COVID 19"-Datensatz](https://github.com/robert-koch-institut/SARS-CoV-2_Infektionen_in_Deutschland) auf GitHub die wichtigste und vollständigste amtliche Datensammlung mit Covid-19 Fallzahlen nach Meldetag, Alter, Geschlecht, Landkreis und anderen Merkmalen zur Verfügung. Der Datensatz überschreibt sich täglich, so dass alte Datensätze nicht mehr vorliegen.
 
-NDR Data bietet hier für jeden Tag seit dem 31. März 2020 eine komplette Kopie dieser täglichen Datensätze zum Download an, die auf Vollständigkeit geprüft, bereinigt, und in ein einheitliches Format gebracht wurden. Eine Beschreibung der Spalten und ihrer Bedeutung findet sich in den [Metadaten](https://www.arcgis.com/home/item.html?id=dd4580c810204019a7b8eb3e0b329dd6).
+NDR Data bietet hier für jeden Tag seit dem 31. März 2020 eine komplette Kopie dieser täglichen Datensätze zum Download an, die auf Vollständigkeit geprüft, bereinigt, und in ein einheitliches Format gebracht wurden. Eine Beschreibung der Spalten und ihrer Bedeutung findet sich im ReadMe des [RKI-GitHub-Repositories](https://github.com/robert-koch-institut/SARS-CoV-2_Infektionen_in_Deutschland#merkmalsauspr%C3%A4gungen).
 
 Sämtliche Datumsspalten sind im [ISO-Datumsformat JJJJ-MM-TT](https://de.wikipedia.org/wiki/ISO_8601#Datum) angegeben. Dabei bedeuten: JJJJ = 4-stelliges Jahr, MM = 2-stelliger Monat, TT = 2-stelliger Tag im Monat. Der 16. Juli 2020 wäre also im ISO-Format `2020-07-16`, der 23. August 2020 wäre beispielsweise `2020-08-23`.
 
-**Der Datensatz zum jüngsten Datenstand (also heute, solange das RKI die Daten täglich aktualisiert)** findet sich unter der URL https://storage.googleapis.com/public.ndrdata.de/rki_covid_19_bulk/daily/covid_19_daily_latest.tsv (Achtung, Datei ist größer als 30 MB) bzw. https://storage.googleapis.com/public.ndrdata.de/rki_covid_19_bulk/daily/covid_19_daily_latest.tsv.gz (komprimierte Version)
+**Der Datensatz zum jüngsten Datenstand (also heute, solange das RKI die Daten täglich aktualisiert)** findet sich unter der URL https://storage.googleapis.com/public.ndrdata.de/rki_covid_19_bulk/daily/covid_19_daily_latest.tsv.gz (komprimiert)
 
 **Der Datensatz zu einem bestimmten Datum** findet sich unter der URL https://storage.googleapis.com/public.ndrdata.de/rki_covid_19_bulk/daily/covid_19_daily_2020-06-16.tsv.gz, wobei anstelle der Zeichenfolge `2020-06-16` das gewünschte Datum im ISO-Format (siehe oben) angegeben werden muss.
 
@@ -42,39 +42,9 @@ In den folgenden Dateien finden sich die Anzahl der Neuinfektionen, wie sie das 
 
 **Quellenvermerk: Robert Koch-Institut (RKI), Landesministerien, dl-de/by-2-0**
 
-*   [CSV-Download: Aktuelle Corona-Zahlen der Landkreise](https://storage.googleapis.com/ndrdata-corona-csv/csv/landkreise_aktuell.csv "Link: CSV-Download: Aktuelle Corona-Zahlen der Landkreise")
-*   [CSV-Download: Aktuelle Corona-Zahlen Schleswig-Holstein](https://storage.googleapis.com/ndrdata-corona-csv/csv/aktueller_stand_schleswig_holstein.csv "Link: CSV-Download: Aktuelle Corona-Zahlen Schleswig-Holstein")
-*   [CSV-Download: Aktuelle Corona-Zahlen Hamburg](https://storage.googleapis.com/ndrdata-corona-csv/csv/aktueller_stand_hamburg.csv "Link: CSV-Download: Aktuelle Corona-Zahlen Hamburg")
-*   [CSV-Download: Aktuelle Corona-Zahlen Niedersachsen](https://storage.googleapis.com/ndrdata-corona-csv/csv/aktueller_stand_niedersachsen.csv "Link: CSV-Download: Aktuelle Corona-Zahlen Niedersachsen")
-*   [CSV-Download: Aktuelle Corona-Zahlen Bremen](https://storage.googleapis.com/ndrdata-corona-csv/csv/aktueller_stand_bremen.csv "Link: CSV-Download: Aktuelle Corona-Zahlen Bremen")
-*   [CSV-Download: Aktuelle Corona-Zahlen Mecklenburg-Vorpommern](https://storage.googleapis.com/ndrdata-corona-csv/csv/aktueller_stand_mecklenburg_vorpommern.csv "Link: CSV-Download: Aktuelle Corona-Zahlen Mecklenburg-Vorpommern")
-*   [Datenfelder der CSV-Dateien (XLSX)](/data/coronadownload112.xlsx "Download starten: Datenfelder der CSV-Dateien (XLSX)") -->
-
-## Interaktive Karten
-
-Die folgenden sich täglich aktualisierende interaktiven Corona-Karten können über den [Datawrapper-River](https://river.datawrapper.de/faq) kostenlos und frei auf eigenen Webseiten eingebunden werden. Sie lassen sich zuvor noch individuell anpassen. Programmierkenntnisse sind dazu nicht nötig.
-
-Die Karten zeigen die "7-Tage-Inzidenz" der Neuinfektionen mit Covid-19 für alle Land- und Stadtkreise in Nord- oder Gesamtdeutschland. Die 7-Tage.Inzidenz ist die Summe der Neuinfektionen über die letzten 7 Tage, gerechnet auf 100.000 Einwohner.
-
-Je dunkler das Blau einer Fläche auf der Karte, desto näher ist der Kreis der Grenze von 35, ab der in Bayerischen Kreisen Maßnahmen ergriffen werden müssen. Kreise mit einer 7-Tage-Inzidenz über 50  - dem Grenzwert für alle anderen Bundesländer - sind rot.
-
-Der Tooltip zeigt für jeden Kreis den Verlauf der letzten 14 Tage.
-
-Datenquelle: [RKI Covid-19-Datensatz](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0/data)
-
-#### Karte für Gesamtdeutschland:
-
-<img src="png/Deutschlandkarte_neu.png" width="400">
-Link im Datawrapper-River: https://river.datawrapper.de/_/HVqu8
-
-<!-- #### Karte für Norddeutschland:
-
-<img src="png/Nordkarte_neu.png" width="400">
-Link im Datawrapper-River: https://river.datawrapper.de/_/7OsDa -->
-
 ## Sammeln Sie mit uns Daten!
 
-Sie haben interessante Daten zur Coronakrise? Z.B. ältere Versionen des ["RKI Covid-19"](#Die-Basis:-RKI-Mirror-&-Bulk)-Datensatzes? Melden Sie sich beim NDRdata-Team!
+Sie haben interessante Daten zur Coronakrise? Melden Sie sich beim NDRdata-Team!
 
 Fragen und Anregungen nehmen wir gerne unter [data@ndr.de](mailto:data@ndr.de "Link: Link zur E-Mail-Adresse data@ndr.de") entgegen.
 
