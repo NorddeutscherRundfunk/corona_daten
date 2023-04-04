@@ -1,5 +1,7 @@
 # Corona-Daten des NDR für die Öffentlichkeit
 
+*Die hier zur Verfügung gestellten Daten werden seit dem 2. April 2023 nicht mehr fortgeschrieben.*
+
 Hier stellt das Datenteam des Norddeutschen Rundfunks (NDR Data) der Öffentlichkeit aktuelle und historische Daten zur Corona-Pandemie zur Verfügung. Jeder kann sie herunterladen und kostenfrei nutzen (siehe [Nutzungsbedingungen](#Lizenz)).
 
 Der NDR möchte so als Teil seines öffentlich-rechtlichen Auftrages sicherstellen, dass diese Daten jetzt und dauerhaft als saubere und maschinenlesbare Datensätze in gleichbleibendem Format allgemein verfügbar sind, um die Coronakrise nachzuvollziehen, zu analysieren und zu erforschen. Das Angebot richtet sich nicht nur an die Medien und die Wissenschaft, sondern an jeden Interessierten.
